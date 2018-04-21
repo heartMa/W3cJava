@@ -1,3 +1,6 @@
+/**
+ * Copyright &copy; 2018-2030 <a href="http://www.w3cjava.com/">W3cjava</a> All rights reserved.
+ */
 package com.w3cjava.common.persistence;
 
 import java.io.Serializable;
@@ -62,5 +65,10 @@ public abstract class BaseEntity<T> implements Serializable {
 		this.isNewRecord = isNewRecord;
 	}
 
-
+	/**
+	 * 删除标记（0：正常；1：删除；2：审核；）
+	 */
+	public static final String DEL_FLAG_NORMAL = "0";
+	public static final String DEL_FLAG_DELETE = "1";
+	public static final String DEL_FLAG_AUDIT = "2";
 }

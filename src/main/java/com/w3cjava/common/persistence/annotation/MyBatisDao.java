@@ -1,3 +1,6 @@
+/**
+ * Copyright &copy; 2018-2030 <a href="http://www.w3cjava.com/">W3cjava</a> All rights reserved.
+ */
 package com.w3cjava.common.persistence.annotation;
 
 import java.lang.annotation.Documented;
