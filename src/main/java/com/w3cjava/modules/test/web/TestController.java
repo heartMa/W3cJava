@@ -60,7 +60,7 @@ public class TestController extends BaseController {
 	@RequestMapping(value={"delete"})
 	public String delete(Test user){
 		systemService.deleteUser(user);
-		return null;
+		return "redirect:/test";
 	}
 
 }

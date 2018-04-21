@@ -31,7 +31,7 @@
 				<td style="border: 1px solid black">${user.email}</td>
 				<td style="border: 1px solid black">${user.phone}</td>
 				<td style="border: 1px solid black">${user.mobile}</td>
-				<td style="border: 1px solid black"><a href="http://localhost:8881/sys/user/delete?id=${user.id}">删除</a></td>
+				<td style="border: 1px solid black"><a href="http://localhost:803/test/delete?id=${user.id}">删除</a></td>
 			</tr>
 		</c:forEach>
 	</table>
